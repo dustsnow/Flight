@@ -24,8 +24,8 @@
 		259CCA9E1706238D007A3DA2 /* SearchByFlightNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259CCA9C1706238D007A3DA2 /* SearchByFlightNumberViewController.xib */; };
 		259CCAA2170623A6007A3DA2 /* SearchByAirportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259CCAA0170623A6007A3DA2 /* SearchByAirportViewController.m */; };
 		259CCAA3170623A6007A3DA2 /* SearchByAirportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259CCAA1170623A6007A3DA2 /* SearchByAirportViewController.xib */; };
-		259CCAAC17062559007A3DA2 /* FlightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259CCAAA17062559007A3DA2 /* FlightDetailViewController.m */; };
-		259CCAAD17062559007A3DA2 /* FlightDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259CCAAB17062559007A3DA2 /* FlightDetailViewController.xib */; };
+		259CCAB11706295F007A3DA2 /* FlightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259CCAAF1706295F007A3DA2 /* FlightDetailViewController.m */; };
+		259CCAB21706295F007A3DA2 /* FlightDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259CCAB01706295F007A3DA2 /* FlightDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,9 +54,9 @@
 		259CCA9F170623A6007A3DA2 /* SearchByAirportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByAirportViewController.h; sourceTree = "<group>"; };
 		259CCAA0170623A6007A3DA2 /* SearchByAirportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByAirportViewController.m; sourceTree = "<group>"; };
 		259CCAA1170623A6007A3DA2 /* SearchByAirportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchByAirportViewController.xib; sourceTree = "<group>"; };
-		259CCAA917062559007A3DA2 /* FlightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightDetailViewController.h; sourceTree = SOURCE_ROOT; };
-		259CCAAA17062559007A3DA2 /* FlightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightDetailViewController.m; sourceTree = SOURCE_ROOT; };
-		259CCAAB17062559007A3DA2 /* FlightDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightDetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		259CCAAE1706295F007A3DA2 /* FlightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightDetailViewController.h; sourceTree = "<group>"; };
+		259CCAAF1706295F007A3DA2 /* FlightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightDetailViewController.m; sourceTree = "<group>"; };
+		259CCAB01706295F007A3DA2 /* FlightDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,9 @@
 			children = (
 				258588021705E50E00C9DC9C /* AppDelegate.h */,
 				258588031705E50E00C9DC9C /* AppDelegate.m */,
-				259CCAA917062559007A3DA2 /* FlightDetailViewController.h */,
-				259CCAAA17062559007A3DA2 /* FlightDetailViewController.m */,
-				259CCAAB17062559007A3DA2 /* FlightDetailViewController.xib */,
+				259CCAAE1706295F007A3DA2 /* FlightDetailViewController.h */,
+				259CCAAF1706295F007A3DA2 /* FlightDetailViewController.m */,
+				259CCAB01706295F007A3DA2 /* FlightDetailViewController.xib */,
 				258588151705EBA100C9DC9C /* FlightListViewController.h */,
 				258588161705EBA100C9DC9C /* FlightListViewController.m */,
 				258588171705EBA100C9DC9C /* FlightListViewController.xib */,
@@ -198,7 +198,7 @@
 				259CCA99170622E4007A3DA2 /* SearchMethodViewController.xib in Resources */,
 				259CCA9E1706238D007A3DA2 /* SearchByFlightNumberViewController.xib in Resources */,
 				259CCAA3170623A6007A3DA2 /* SearchByAirportViewController.xib in Resources */,
-				259CCAAD17062559007A3DA2 /* FlightDetailViewController.xib in Resources */,
+				259CCAB21706295F007A3DA2 /* FlightDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 				259CCA98170622E4007A3DA2 /* SearchMethodViewController.m in Sources */,
 				259CCA9D1706238D007A3DA2 /* SearchByFlightNumberViewController.m in Sources */,
 				259CCAA2170623A6007A3DA2 /* SearchByAirportViewController.m in Sources */,
-				259CCAAC17062559007A3DA2 /* FlightDetailViewController.m in Sources */,
+				259CCAB11706295F007A3DA2 /* FlightDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

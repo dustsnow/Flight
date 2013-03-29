@@ -16,6 +16,8 @@
 		258588061705E50F00C9DC9C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 258588051705E50F00C9DC9C /* Default.png */; };
 		258588081705E50F00C9DC9C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258588071705E50F00C9DC9C /* Default@2x.png */; };
 		2585880A1705E50F00C9DC9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258588091705E50F00C9DC9C /* Default-568h@2x.png */; };
+		258588131705E5F100C9DC9C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258588111705E5F100C9DC9C /* SearchViewController.m */; };
+		258588141705E5F100C9DC9C /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258588121705E5F100C9DC9C /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		258588051705E50F00C9DC9C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		258588071705E50F00C9DC9C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		258588091705E50F00C9DC9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		258588101705E5F100C9DC9C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		258588111705E5F100C9DC9C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		258588121705E5F100C9DC9C /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				258588021705E50E00C9DC9C /* AppDelegate.h */,
 				258588031705E50E00C9DC9C /* AppDelegate.m */,
+				258588101705E5F100C9DC9C /* SearchViewController.h */,
+				258588111705E5F100C9DC9C /* SearchViewController.m */,
+				258588121705E5F100C9DC9C /* SearchViewController.xib */,
 				258587FA1705E50E00C9DC9C /* Supporting Files */,
 			);
 			path = Flight;
@@ -154,6 +162,7 @@
 				258588061705E50F00C9DC9C /* Default.png in Resources */,
 				258588081705E50F00C9DC9C /* Default@2x.png in Resources */,
 				2585880A1705E50F00C9DC9C /* Default-568h@2x.png in Resources */,
+				258588141705E5F100C9DC9C /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				258588001705E50E00C9DC9C /* main.m in Sources */,
 				258588041705E50E00C9DC9C /* AppDelegate.m in Sources */,
+				258588131705E5F100C9DC9C /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

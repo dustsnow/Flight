@@ -1,27 +1,20 @@
 //
 //  AppDelegate.m
-//  Flight
+//  Test
 //
 //  Created by peng hou on 3/29/13.
 //  Copyright (c) 2013 Peng Hou. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "SearchMethodViewController.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window;
-@synthesize searchMethodViewController = _searchMethodViewController;
-@synthesize navigationController = _navigationController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    SearchMethodViewController *searchMethodViewController = [[SearchMethodViewController alloc] initWithNibName:@"SearchMethodViewController" bundle:nil];
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:searchMethodViewController];
-    self.window.rootViewController = self.navigationController;
-    //self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

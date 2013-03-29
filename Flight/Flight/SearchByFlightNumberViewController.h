@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchByFlightNumberViewController : UIViewController
+@interface SearchByFlightNumberViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
+
+@property (strong,nonatomic) NSArray *options;
 
 @end

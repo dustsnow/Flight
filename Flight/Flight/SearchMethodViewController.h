@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SearchByAirportViewController;
+@class SearchByFlightNumberViewController;
 
 @interface SearchMethodViewController : UIViewController
+@property (strong, nonatomic) SearchByAirportViewController *searchByAirportViewController;
+@property (strong, nonatomic) SearchByFlightNumberViewController *searchByFlightNumberViewController;
+- (IBAction)SearchByAirport:(id)sender;
+- (IBAction)SearchByFlightNumber:(id)sender;
 
 @end

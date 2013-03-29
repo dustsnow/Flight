@@ -1,18 +1,18 @@
 //
-//  SearchViewController.m
+//  SearchMethodViewController.m
 //  Flight
 //
 //  Created by peng hou on 3/29/13.
 //  Copyright (c) 2013 Peng Hou. All rights reserved.
 //
 
-#import "SearchViewController.h"
+#import "SearchMethodViewController.h"
 
-@interface SearchViewController ()
+@interface SearchMethodViewController ()
 
 @end
 
-@implementation SearchViewController
+@implementation SearchMethodViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

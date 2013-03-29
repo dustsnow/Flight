@@ -1,5 +1,5 @@
 //
-//  SearchViewController.h
+//  SearchByAirportViewController.h
 //  Flight
 //
 //  Created by peng hou on 3/29/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchViewController : UIViewController
+@interface SearchByAirportViewController : UIViewController
 
 @end

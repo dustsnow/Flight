@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class SearchMethodViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) SearchMethodViewController *searchMethodViewController;
 
 @end

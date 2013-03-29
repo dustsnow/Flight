@@ -7,14 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "SearchMethodViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window = _window;
+@synthesize searchMethodViewController = _searchMethodViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.searchMethodViewController = [[SearchMethodViewController alloc] initWithNibName:@"SearchMethodViewController" bundle:nil];
+    self.window.rootViewController = self.searchMethodViewController;
+    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

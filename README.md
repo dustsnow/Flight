@@ -1,6 +1,7 @@
 Components of the APP:
 [UI] - User Interface
 [BE] = Back End
+
 	1. [UI] Facebook-like Slidebar
 	2. [UI] tableList showing list of flights
 	3. [BE] Get data from server

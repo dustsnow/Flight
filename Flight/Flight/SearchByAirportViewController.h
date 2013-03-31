@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AirportListViewController.h"
 
-@interface SearchByAirportViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@class AirportListViewController;
 
-@property (strong, nonatomic) NSArray *options;
+@interface SearchByAirportViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, AirportListViewControllerDelegate>
+
+@property (strong, nonatomic) AirportListViewController *airportListViewController;
+@property (strong, nonatomic) NSMutableArray *options;
+@property (strong, nonatomic) NSMutableArray *values;
+@property (weak, nonatomic) IBOutlet UITableView *optionsTableView;
 
 @end

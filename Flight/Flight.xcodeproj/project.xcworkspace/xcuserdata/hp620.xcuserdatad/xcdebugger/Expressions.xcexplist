@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SearchByAirportViewController addItemViewController:didFinishEnteringItem:]:SearchByAirportViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchByAirportViewController tableView:didSelectRowAtIndexPath:]:SearchByAirportViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchByAirportViewController tableView:cellForRowAtIndexPath:]:SearchByAirportViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchByAirportViewController addItemViewController:originalRow:didFinishEnteringItem:]:SearchByAirportViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "values">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

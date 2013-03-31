@@ -24,7 +24,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = NSLocalizedString(@"Back",@"Search Method");
+        self.title = NSLocalizedString(@"Flight",@"Search Method");
     }
     return self;
 }
@@ -50,10 +50,12 @@
 }
 
 - (IBAction)SearchByFlightNumber:(id)sender {
-    //Transient to "Search By Flight Number View
-    if(!self.searchByFlightNumberViewController){
-        self.searchByFlightNumberViewController= [[SearchByFlightNumberViewController alloc] initWithNibName:@"SearchByAirportViewController" bundle:nil];
+    if (!self.searchByFlightNumberViewController) {
+        self.searchByFlightNumberViewController = [[SearchByFlightNumberViewController alloc]
+            initWithNibName:@"SearchByFlightNumberViewController" bundle:nil];
     }
     [self.navigationController pushViewController:self.searchByFlightNumberViewController animated:YES];
 }
+
+
 @end

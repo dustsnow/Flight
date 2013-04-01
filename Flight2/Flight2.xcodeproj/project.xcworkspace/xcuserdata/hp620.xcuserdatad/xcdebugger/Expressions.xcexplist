@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AirportListViewController initWithNibName:bundle:]:AirportListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.originalSelectedRow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AirportListViewController tableView:didSelectRowAtIndexPath:]:AirportListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "originalSelectedRow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

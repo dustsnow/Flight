@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255F376E1708C96300673D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F376D1708C96300673D27 /* UIKit.framework */; };
+		255F37701708C96300673D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F376F1708C96300673D27 /* Foundation.framework */; };
+		255F37721708C96300673D27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F37711708C96300673D27 /* CoreGraphics.framework */; };
+		255F37781708C96300673D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255F37761708C96300673D27 /* InfoPlist.strings */; };
+		255F377A1708C96300673D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F37791708C96300673D27 /* main.m */; };
+		255F377E1708C96300673D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F377D1708C96300673D27 /* AppDelegate.m */; };
+		255F37801708C96300673D27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 255F377F1708C96300673D27 /* Default.png */; };
+		255F37821708C96300673D27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255F37811708C96300673D27 /* Default@2x.png */; };
+		255F37841708C96300673D27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255F37831708C96300673D27 /* Default-568h@2x.png */; };
+		255F378D1708C9AD00673D27 /* SearchMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F378B1708C9AD00673D27 /* SearchMethodViewController.m */; };
+		255F378E1708C9AD00673D27 /* SearchMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F378C1708C9AD00673D27 /* SearchMethodViewController.xib */; };
+		255F37921708D8FB00673D27 /* SearchByAirportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F37901708D8FA00673D27 /* SearchByAirportViewController.m */; };
+		255F37931708D8FB00673D27 /* SearchByAirportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F37911708D8FB00673D27 /* SearchByAirportViewController.xib */; };
+		255F37971708DA8100673D27 /* SearchByFlightNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F37951708DA8000673D27 /* SearchByFlightNumberViewController.m */; };
+		255F37981708DA8100673D27 /* SearchByFlightNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F37961708DA8100673D27 /* SearchByFlightNumberViewController.xib */; };
+		255F379C1708E38B00673D27 /* AirportListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F379A1708E38B00673D27 /* AirportListViewController.m */; };
+		255F379D1708E38B00673D27 /* AirportListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F379B1708E38B00673D27 /* AirportListViewController.xib */; };
+		255F37A11708E52300673D27 /* AirlineListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F379F1708E52300673D27 /* AirlineListViewController.m */; };
+		255F37A21708E52300673D27 /* AirlineListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F37A01708E52300673D27 /* AirlineListViewController.xib */; };
+		25952E5B170926CD007E658C /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25952E59170926CD007E658C /* SearchResultViewController.m */; };
+		25952E5C170926CD007E658C /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25952E5A170926CD007E658C /* SearchResultViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255F376A1708C96300673D27 /* Flight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F376D1708C96300673D27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		255F376F1708C96300673D27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		255F37711708C96300673D27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		255F37751708C96300673D27 /* Flight2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flight2-Info.plist"; sourceTree = "<group>"; };
+		255F37771708C96300673D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		255F37791708C96300673D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255F377B1708C96300673D27 /* Flight2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flight2-Prefix.pch"; sourceTree = "<group>"; };
+		255F377C1708C96300673D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		255F377D1708C96300673D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		255F377F1708C96300673D27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		255F37811708C96300673D27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		255F37831708C96300673D27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		255F378A1708C9AD00673D27 /* SearchMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMethodViewController.h; sourceTree = "<group>"; };
+		255F378B1708C9AD00673D27 /* SearchMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMethodViewController.m; sourceTree = "<group>"; };
+		255F378C1708C9AD00673D27 /* SearchMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchMethodViewController.xib; sourceTree = "<group>"; };
+		255F378F1708D8FA00673D27 /* SearchByAirportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByAirportViewController.h; sourceTree = "<group>"; };
+		255F37901708D8FA00673D27 /* SearchByAirportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByAirportViewController.m; sourceTree = "<group>"; };
+		255F37911708D8FB00673D27 /* SearchByAirportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchByAirportViewController.xib; sourceTree = "<group>"; };
+		255F37941708DA8000673D27 /* SearchByFlightNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByFlightNumberViewController.h; sourceTree = "<group>"; };
+		255F37951708DA8000673D27 /* SearchByFlightNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByFlightNumberViewController.m; sourceTree = "<group>"; };
+		255F37961708DA8100673D27 /* SearchByFlightNumberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchByFlightNumberViewController.xib; sourceTree = "<group>"; };
+		255F37991708E38B00673D27 /* AirportListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportListViewController.h; sourceTree = "<group>"; };
+		255F379A1708E38B00673D27 /* AirportListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportListViewController.m; sourceTree = "<group>"; };
+		255F379B1708E38B00673D27 /* AirportListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportListViewController.xib; sourceTree = "<group>"; };
+		255F379E1708E52300673D27 /* AirlineListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirlineListViewController.h; sourceTree = "<group>"; };
+		255F379F1708E52300673D27 /* AirlineListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirlineListViewController.m; sourceTree = "<group>"; };
+		255F37A01708E52300673D27 /* AirlineListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirlineListViewController.xib; sourceTree = "<group>"; };
+		25952E58170926CD007E658C /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		25952E59170926CD007E658C /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		25952E5A170926CD007E658C /* SearchResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255F37671708C96300673D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F376E1708C96300673D27 /* UIKit.framework in Frameworks */,
+				255F37701708C96300673D27 /* Foundation.framework in Frameworks */,
+				255F37721708C96300673D27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255F37611708C96300673D27 = {
+			isa = PBXGroup;
+			children = (
+				255F37731708C96300673D27 /* Flight2 */,
+				255F376C1708C96300673D27 /* Frameworks */,
+				255F376B1708C96300673D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255F376B1708C96300673D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255F376A1708C96300673D27 /* Flight2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255F376C1708C96300673D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				255F376D1708C96300673D27 /* UIKit.framework */,
+				255F376F1708C96300673D27 /* Foundation.framework */,
+				255F37711708C96300673D27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255F37731708C96300673D27 /* Flight2 */ = {
+			isa = PBXGroup;
+			children = (
+				255F379E1708E52300673D27 /* AirlineListViewController.h */,
+				255F379F1708E52300673D27 /* AirlineListViewController.m */,
+				255F37A01708E52300673D27 /* AirlineListViewController.xib */,
+				255F37991708E38B00673D27 /* AirportListViewController.h */,
+				255F379A1708E38B00673D27 /* AirportListViewController.m */,
+				255F379B1708E38B00673D27 /* AirportListViewController.xib */,
+				255F377C1708C96300673D27 /* AppDelegate.h */,
+				255F377D1708C96300673D27 /* AppDelegate.m */,
+				255F378F1708D8FA00673D27 /* SearchByAirportViewController.h */,
+				255F37901708D8FA00673D27 /* SearchByAirportViewController.m */,
+				255F37911708D8FB00673D27 /* SearchByAirportViewController.xib */,
+				255F37941708DA8000673D27 /* SearchByFlightNumberViewController.h */,
+				255F37951708DA8000673D27 /* SearchByFlightNumberViewController.m */,
+				255F37961708DA8100673D27 /* SearchByFlightNumberViewController.xib */,
+				255F378A1708C9AD00673D27 /* SearchMethodViewController.h */,
+				255F378B1708C9AD00673D27 /* SearchMethodViewController.m */,
+				255F378C1708C9AD00673D27 /* SearchMethodViewController.xib */,
+				25952E58170926CD007E658C /* SearchResultViewController.h */,
+				25952E59170926CD007E658C /* SearchResultViewController.m */,
+				25952E5A170926CD007E658C /* SearchResultViewController.xib */,
+				255F37741708C96300673D27 /* Supporting Files */,
+			);
+			path = Flight2;
+			sourceTree = "<group>";
+		};
+		255F37741708C96300673D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255F37751708C96300673D27 /* Flight2-Info.plist */,
+				255F37761708C96300673D27 /* InfoPlist.strings */,
+				255F37791708C96300673D27 /* main.m */,
+				255F377B1708C96300673D27 /* Flight2-Prefix.pch */,
+				255F377F1708C96300673D27 /* Default.png */,
+				255F37811708C96300673D27 /* Default@2x.png */,
+				255F37831708C96300673D27 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255F37691708C96300673D27 /* Flight2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F37871708C96300673D27 /* Build configuration list for PBXNativeTarget "Flight2" */;
+			buildPhases = (
+				255F37661708C96300673D27 /* Sources */,
+				255F37671708C96300673D27 /* Frameworks */,
+				255F37681708C96300673D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flight2;
+			productName = Flight2;
+			productReference = 255F376A1708C96300673D27 /* Flight2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255F37621708C96300673D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Peng Hou";
+			};
+			buildConfigurationList = 255F37651708C96300673D27 /* Build configuration list for PBXProject "Flight2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 255F37611708C96300673D27;
+			productRefGroup = 255F376B1708C96300673D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255F37691708C96300673D27 /* Flight2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255F37681708C96300673D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F37781708C96300673D27 /* InfoPlist.strings in Resources */,
+				255F37801708C96300673D27 /* Default.png in Resources */,
+				255F37821708C96300673D27 /* Default@2x.png in Resources */,
+				255F37841708C96300673D27 /* Default-568h@2x.png in Resources */,
+				255F378E1708C9AD00673D27 /* SearchMethodViewController.xib in Resources */,
+				255F37931708D8FB00673D27 /* SearchByAirportViewController.xib in Resources */,
+				255F37981708DA8100673D27 /* SearchByFlightNumberViewController.xib in Resources */,
+				255F379D1708E38B00673D27 /* AirportListViewController.xib in Resources */,
+				255F37A21708E52300673D27 /* AirlineListViewController.xib in Resources */,
+				25952E5C170926CD007E658C /* SearchResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255F37661708C96300673D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F377A1708C96300673D27 /* main.m in Sources */,
+				255F377E1708C96300673D27 /* AppDelegate.m in Sources */,
+				255F378D1708C9AD00673D27 /* SearchMethodViewController.m in Sources */,
+				255F37921708D8FB00673D27 /* SearchByAirportViewController.m in Sources */,
+				255F37971708DA8100673D27 /* SearchByFlightNumberViewController.m in Sources */,
+				255F379C1708E38B00673D27 /* AirportListViewController.m in Sources */,
+				255F37A11708E52300673D27 /* AirlineListViewController.m in Sources */,
+				25952E5B170926CD007E658C /* SearchResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		255F37761708C96300673D27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255F37771708C96300673D27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255F37851708C96300673D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		255F37861708C96300673D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255F37881708C96300673D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flight2/Flight2-Prefix.pch";
+				INFOPLIST_FILE = "Flight2/Flight2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		255F37891708C96300673D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flight2/Flight2-Prefix.pch";
+				INFOPLIST_FILE = "Flight2/Flight2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255F37651708C96300673D27 /* Build configuration list for PBXProject "Flight2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F37851708C96300673D27 /* Debug */,
+				255F37861708C96300673D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F37871708C96300673D27 /* Build configuration list for PBXNativeTarget "Flight2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F37881708C96300673D27 /* Debug */,
+				255F37891708C96300673D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255F37621708C96300673D27 /* Project object */;
+}

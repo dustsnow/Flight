@@ -8,14 +8,12 @@
 
 #import <UIKit/UIKit.h>
 @class SearchByAirportViewController;
-@class SearchByFlightNumberViewController;
+//@class SearchByFlightNumberViewController;
 
-@interface SearchMethodViewController : UIViewController
+@interface SearchMethodViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @property (strong, nonatomic) SearchByAirportViewController *searchByAirportViewController;
-@property (strong, nonatomic) SearchByFlightNumberViewController *searchByFlightNumberViewController;
-
-- (IBAction)SearchByAirport:(id)sender;
-- (IBAction)SearchByFlightNumber:(id)sender;
+//@property (strong, nonatomic) SearchByFlightNumberViewController *searchByFlightNumberViewController;
+@property (weak, nonatomic) IBOutlet UITableView *searchMethodTableView;
 
 @end

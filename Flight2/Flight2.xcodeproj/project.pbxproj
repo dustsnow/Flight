@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2545C0C1170A5DEF006BE335 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2545C0C0170A5DEF006BE335 /* SearchResultTableViewCell.xib */; };
+		2545C0C4170A6209006BE335 /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2545C0C3170A6209006BE335 /* SearchResultTableViewCell.m */; };
 		255F376E1708C96300673D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F376D1708C96300673D27 /* UIKit.framework */; };
 		255F37701708C96300673D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F376F1708C96300673D27 /* Foundation.framework */; };
 		255F37721708C96300673D27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F37711708C96300673D27 /* CoreGraphics.framework */; };
@@ -31,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2545C0C0170A5DEF006BE335 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		2545C0C2170A6209006BE335 /* SearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewCell.h; sourceTree = "<group>"; };
+		2545C0C3170A6209006BE335 /* SearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewCell.m; sourceTree = "<group>"; };
 		255F376A1708C96300673D27 /* Flight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255F376D1708C96300673D27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		255F376F1708C96300673D27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +130,9 @@
 				255F378A1708C9AD00673D27 /* SearchMethodViewController.h */,
 				255F378B1708C9AD00673D27 /* SearchMethodViewController.m */,
 				255F378C1708C9AD00673D27 /* SearchMethodViewController.xib */,
+				2545C0C2170A6209006BE335 /* SearchResultTableViewCell.h */,
+				2545C0C3170A6209006BE335 /* SearchResultTableViewCell.m */,
+				2545C0C0170A5DEF006BE335 /* SearchResultTableViewCell.xib */,
 				25952E58170926CD007E658C /* SearchResultViewController.h */,
 				25952E59170926CD007E658C /* SearchResultViewController.m */,
 				25952E5A170926CD007E658C /* SearchResultViewController.xib */,
@@ -208,6 +216,7 @@
 				255F379D1708E38B00673D27 /* AirportListViewController.xib in Resources */,
 				255F37A21708E52300673D27 /* AirlineListViewController.xib in Resources */,
 				25952E5C170926CD007E658C /* SearchResultViewController.xib in Resources */,
+				2545C0C1170A5DEF006BE335 /* SearchResultTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 				255F379C1708E38B00673D27 /* AirportListViewController.m in Sources */,
 				255F37A11708E52300673D27 /* AirlineListViewController.m in Sources */,
 				25952E5B170926CD007E658C /* SearchResultViewController.m in Sources */,
+				2545C0C4170A6209006BE335 /* SearchResultTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

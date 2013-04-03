@@ -10,4 +10,7 @@
 
 @interface SearchResultViewController : UIViewController
 
+@property (copy, nonatomic) NSDictionary *searchResult;
+@property (weak, nonatomic) IBOutlet UITableView *searchResultTableView;
+
 @end

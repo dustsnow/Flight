@@ -8,6 +8,7 @@
 
 #import "SearchByAirportViewController.h"
 #import "AirportListViewController.h"
+#import "SearchResultViewController.h"
 
 @interface SearchByAirportViewController ()
 
@@ -18,7 +19,9 @@
 @synthesize options, values;
 @synthesize airportListViewController = _airportListViewController;
 @synthesize theConnection;
+@synthesize searchResultViewController = _searchResultViewController;
 
+//Delegate of AirportListViewController
 -(void) selectedAirport:(AirportListViewController *)viewController originalSelectedRow:(NSIndexPath *)originalSelectedRow selectedItem:(NSString *)item{
     [values replaceObjectAtIndex:originalSelectedRow.row withObject:item];
     [self.optionsTableView reloadData];
@@ -129,15 +132,21 @@
 	theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
 }
 
-- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
-	NSLog(@"Connection didReceiveResponse: %@ - %@", response, [response MIMEType]);
-}
+
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
 	NSLog(@"Connection didReceiveData of length: %u", data.length);
     NSError *jsonParsingError = nil;
-    NSDictionary *publicTimeline = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonParsingError];
-    NSString *firstName = [publicTimeline objectForKey:@"firstName"];
-    NSLog(@"First Name is %@",firstName);
+    NSDictionary *searchResult = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonParsingError];
+    NSDictionary *dd = [searchResult objectForKey:@"phoneNumbers"];
+    if (!self.searchResultViewController) {
+        self.searchResultViewController = [[SearchResultViewController alloc]
+                                           initWithNibName:@"SearchResultViewController" bundle:nil];
+    }
+    self.searchResultViewController.searchResult = searchResult;
+    [self.navigationController pushViewController:self.searchResultViewController animated:YES];
+}
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	NSLog(@"Connection didReceiveResponse: %@ - %@", response, [response MIMEType]);
 }
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     NSLog(@"Connection failed! Error - %@ %@",

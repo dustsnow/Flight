@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "AirportListViewController.h"
+#import "SearchResultViewController.h"
 
 @class AirportListViewController;
+@class SearchResultViewController;
 
 @interface SearchByAirportViewController : UIViewController <AirportListViewControllerDelegate>
 
+@property (strong, nonatomic) SearchResultViewController *searchResultViewController;
 @property (strong, nonatomic) NSURLConnection *theConnection;
 @property (strong, nonatomic) AirportListViewController *airportListViewController;
 @property (strong, nonatomic) NSMutableArray *options;

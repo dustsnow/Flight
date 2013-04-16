@@ -9,7 +9,6 @@
 #import "SearchMethodViewController.h"
 #import "SearchByAirportViewController.h"
 #import "SearchByFlightNumberViewController.h"
-
 @interface SearchMethodViewController ()
 
 @end
@@ -77,4 +76,5 @@
         [self.navigationController pushViewController:self.searchByFlightNumberViewController animated:YES];
     }
 }
+
 @end

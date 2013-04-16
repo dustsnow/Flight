@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JTRevealSidebar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>JTRevealSidebarDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>JTRevealSidebarDemoV2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>JTRevealSidebarV2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1A617E8A148FC4A6005EC465</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A617EA0148FC4A7005EC465</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AD4708014446391002EE1B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AD470A414446392002EE1B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37E67F1F1591080200043822</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37E67F36159109C500043822</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

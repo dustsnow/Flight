@@ -137,7 +137,8 @@
 	NSLog(@"Connection didReceiveData of length: %u", data.length);
     NSError *jsonParsingError = nil;
     NSDictionary *searchResult = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonParsingError];
-    NSDictionary *dd = [searchResult objectForKey:@"phoneNumbers"];
+    NSDictionary *address = [searchResult objectForKey:@"address"];
+//    NSDictionary *dd = [searchResult objectForKey:@"phoneNumbers"];
     if (!self.searchResultViewController) {
         self.searchResultViewController = [[SearchResultViewController alloc]
                                            initWithNibName:@"SearchResultViewController" bundle:nil];

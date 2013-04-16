@@ -14,8 +14,10 @@
 
 @end
 
-@interface AirportListViewController : UIViewController
+@interface AirportListViewController : UIViewController <UISearchDisplayDelegate, UISearchBarDelegate>
 @property (nonatomic, assign) id delegate;
 @property (strong, nonatomic) NSArray *airportList;
 @property (copy, nonatomic) NSIndexPath *originalSelectedRow;
+@property (strong, nonatomic) NSArray *searchResults;
+@property (strong, nonatomic) NSArray *recipes;
 @end
